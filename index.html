@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency Converter</title>
+</head>
+<body>
+
+         <form class="registerForm" onsubmit="convertCurrency(event)">
+                <label>Amount</label>
+               <input type="text" name="amount" id="amount" />
+    <select name="exchange" id="exchange">
+
+      <option value="usd">Dollar</option>
+      <option value="dinar">Dinar</option>
+      <option value="nis">Shekel</option>
+    </select>
+
+    
+    <p class="result" id="result"></p>
+    <input type="submit" value="Convert" />
+  </form>
+
+
+        <script src="test.js"></script>
+
+</body>
+</html>
